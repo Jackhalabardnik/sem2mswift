@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CardView: View {
-    @State private var isFaceUp = false
-    @State var content: String
+    @Binding var isFaceUp: Bool
+    @Binding var content: String
     @Binding var themeColor: Color
     
     var body: some View {

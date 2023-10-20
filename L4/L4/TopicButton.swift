@@ -18,7 +18,7 @@ struct TopicButton: View {
             Button(action: buttonAction) {
                 VStack {
                     Image(systemName: icon)
-                    Text(content).font(.body)
+                    Text(content).font(Font.footnote)
                 }
             }
         }.padding()
