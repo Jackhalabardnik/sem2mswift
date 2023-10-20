@@ -1,10 +1,3 @@
-//
-//  card.swift
-//  Memory
-//
-//  Created by Jacek  on 10/10/2023.
-//
-
 import SwiftUI
 
 struct card: View {
